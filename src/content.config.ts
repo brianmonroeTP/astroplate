@@ -70,6 +70,14 @@ const contactCollection = defineCollection({
   }),
 });
 
+// drinkmenu collection schema
+const drinkmenuCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/drinkmenu" }),
+  schema: z.object({
+    ...commonFields,
+  }),
+});
+
 // Homepage collection schema
 const homepageCollection = defineCollection({
   loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/homepage" }),
@@ -149,6 +157,7 @@ export const collections = {
   pages: pagesCollection,
   about: aboutCollection,
   contact: contactCollection,
+  drinkmenu: drinkmenuCollection,
 
   // sections
   ctaSection: ctaSectionCollection,

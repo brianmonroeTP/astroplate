@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Mojito",
+    "categories": ["Cocktail", "Trending"],
+    "price": 12,
+    "description": "Fresh mint, lime juice, white rum, and soda water. A refreshing classic."
+  },
+  {
+    "id": 2,
+    "name": "Margarita",
+    "categories": ["Cocktail", "New"],
+    "price": 13,
+    "description": ""
+  },
+  {
+    "id": 3,
+    "name": "Old Fashioned",
+    "categories": ["Whiskey"],
+    "price": 14,
+    "description": "Bourbon, sugar, bitters, and a twist of citrus. A timeless favorite."
+  },
+  {
+    "id": 4,
+    "name": "Pina Colada",
+    "categories": ["Tropical", "New"],
+    "price": 12,
+    "description": "Coconut cream, pineapple juice, and white rum. Pure tropical bliss."
+  },
+  {
+    "id": 5,
+    "name": "Daiquiri",
+    "categories": ["Cocktail"],
+    "price": 11,
+    "description": "White rum, lime juice, and simple syrup. Light and perfectly balanced."
+  },
+  {
+    "id": 6,
+    "name": "Negroni",
+    "categories": ["Cocktail", "Trending"],
+    "price": 13,
+    "description": "Equal parts gin, Campari, and sweet vermouth. Bold and complex."
+  },
+  {
+    "id": 7,
+    "name": "Espresso Martini",
+    "categories": ["Cocktail", "New", "Trending"],
+    "price": 13,
+    "description": "Vodka, Kahlua, and fresh espresso. The perfect pick-me-up."
+  },
+  {
+    "id": 8,
+    "name": "Mai Tai",
+    "categories": ["Tropical", "Trending"],
+    "price": 13,
+    "description": "Rum, lime juice, orange liqueur, and almond syrup. Exotic and delicious."
+  },
+  {
+    "id": 9,
+    "name": "Cosmopolitan",
+    "categories": ["Cocktail"],
+    "price": 12,
+    "description": "Vodka, cranberry juice, lime, and triple sec. Elegant and tart."
+  },
+  {
+    "id": 10,
+    "name": "Manhattan",
+    "categories": ["Whiskey"],
+    "price": 14,
+    "description": "Rye whiskey, sweet vermouth, and bitters. Smooth and sophisticated."
+  },
+{
+    "id": 11,
+    "name": "Miller Lite",
+    "categories": ["Beer"],
+    "price": 2.25,
+    "description": ""
+  }
+]
