@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
-    "base_path": "/",
+    "base_url": "https://brianmonroetp.github.io/astroplate",
+    "base_path": "/astroplate/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
