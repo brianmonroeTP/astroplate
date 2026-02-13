@@ -2,78 +2,198 @@
   {
     "id": 1,
     "name": "Mojito",
-    "categories": ["Cocktail", "Trending"],
+    "categories": ["Signature Mix", "Trending"],
     "price": 12,
     "description": "Fresh mint, lime juice, white rum, and soda water. A refreshing classic."
   },
   {
     "id": 2,
     "name": "Margarita",
-    "categories": ["Cocktail", "New"],
+    "categories": ["Signature Mix", "New"],
     "price": 13,
     "description": ""
   },
   {
     "id": 3,
-    "name": "Old Fashioned",
-    "categories": ["Whiskey"],
-    "price": 14,
-    "description": "Bourbon, sugar, bitters, and a twist of citrus. A timeless favorite."
+    "name": "Bloody Mary",
+    "categories": ["Signature Mix", "Vodka"],
+    "price": 5,
+    "description": "Vodka, tomato juice, and a blend of spices. The ultimate brunch cocktail."
   },
   {
     "id": 4,
-    "name": "Pina Colada",
-    "categories": ["Tropical", "New"],
-    "price": 12,
-    "description": "Coconut cream, pineapple juice, and white rum. Pure tropical bliss."
+    "name": "Bud Light",
+    "categories": ["Beer"],
+    "price": 2.25,
+    "description": ""
   },
   {
     "id": 5,
-    "name": "Daiquiri",
-    "categories": ["Cocktail"],
-    "price": 11,
-    "description": "White rum, lime juice, and simple syrup. Light and perfectly balanced."
+    "name": "Budweiser",
+    "categories": ["Beer"],
+    "price": 2.25,
+    "description": ""
   },
   {
     "id": 6,
-    "name": "Negroni",
-    "categories": ["Cocktail", "Trending"],
-    "price": 13,
-    "description": "Equal parts gin, Campari, and sweet vermouth. Bold and complex."
+    "name": "Miller 64",
+    "categories": ["Beer"],
+    "price": 2.25,
+    "description": ""
   },
   {
     "id": 7,
-    "name": "Espresso Martini",
-    "categories": ["Cocktail", "New", "Trending"],
-    "price": 13,
-    "description": "Vodka, Kahlua, and fresh espresso. The perfect pick-me-up."
+    "name": "Bud Select 55",
+    "categories": ["Beer"],
+    "price": 2.25,
+    "description": ""
   },
   {
     "id": 8,
-    "name": "Mai Tai",
-    "categories": ["Tropical", "Trending"],
-    "price": 13,
-    "description": "Rum, lime juice, orange liqueur, and almond syrup. Exotic and delicious."
+    "name": "Surfside Vodka",
+    "categories": ["Canned Cocktail"],
+    "price": 4,
+    "description": "Flavors vary, see bartender for current available options."
   },
   {
     "id": 9,
-    "name": "Cosmopolitan",
-    "categories": ["Cocktail"],
+    "name": "White Claw",
+    "categories": ["Seltzer"],
     "price": 12,
-    "description": "Vodka, cranberry juice, lime, and triple sec. Elegant and tart."
+    "description": "Flavors vary, see bartender for current available options."
   },
   {
     "id": 10,
-    "name": "Manhattan",
-    "categories": ["Whiskey"],
-    "price": 14,
-    "description": "Rye whiskey, sweet vermouth, and bitters. Smooth and sophisticated."
+    "name": "Captain Morgan",
+    "categories": ["Rum"],
+    "price": 3.50,
+    "description": ""
   },
-{
+  {
     "id": 11,
     "name": "Miller Lite",
     "categories": ["Beer"],
     "price": 2.25,
+    "description": ""
+  },
+  {
+    "id": 12,
+    "name": "Goodboy Vodka",
+    "categories": ["Canned Cocktail", "New"],
+    "price": 4,
+    "description": "Flavors vary, see bartender for current available options."
+  },
+  {
+    "id": 13,
+    "name": "High Noon",
+    "categories": ["Canned Cocktail"],
+    "price": 4,
+    "description": "Flavors vary, see bartender for current available options."
+  },
+  {
+    "id": 14,
+    "name": "Michelob Ultra Draft",
+    "categories": ["Draft Beer"],
+    "price": 2.25,
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "Busch Light",
+    "categories": ["Beer"],
+    "price": 2.25,
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "Jack Daniels",
+    "categories": ["Whiskey"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 17,
+    "name": "Jack Daniels Tennessee Honey",
+    "categories": ["Whiskey"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 18,
+    "name": "Makers Mark",
+    "categories": ["Whiskey"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 19,
+    "name": "Jim Beam",
+    "categories": ["Bourbon"],
+    "price": 4,
+    "description": ""
+  }
+  ,
+  {
+    "id": 25,
+    "name": "Fireball",
+    "categories": ["Whiskey", "Signature Shots"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 20,
+    "name": "Jameson",
+    "categories": ["Whiskey"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 21,
+    "name": "Lemon Drop",
+    "categories": ["Signature Shots"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 22,
+    "name": "Apple Sauce",
+    "categories": ["Signature Shots"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 23,
+    "name": "Dr. McGillicuddy's",
+    "categories": ["Signature Shots", "Whiskey"],
+    "price": 4,
+    "description": "Flavors vary, see bartender for current available options."
+  },
+  {
+    "id": 24,
+    "name": "Green Tea",
+    "categories": ["Signature Shots"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 26,
+    "name": "Johnny Vegas",
+    "categories": ["Signature Shots"],
+    "price": 4,
+    "description": ""
+  },
+  {
+    "id": 27,
+    "name": "1800",
+    "categories": ["Tequila"],
+    "price": "NULL",
+    "description": ""
+  },
+  {
+    "id": 28,
+    "name": "Tanqueray",
+    "categories": ["Gin"],
+    "price": "NULL",
     "description": ""
   }
 ]

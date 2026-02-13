@@ -4,7 +4,7 @@ interface Drink {
   id: number;
   name: string;
   categories: string[];
-  price?: number;
+  price?: number | string;
   description?: string;
 }
 
@@ -29,7 +29,13 @@ export default function DrinkMenu({ drinks }: DrinkMenuProps) {
 
   const categories = Array.from(
     new Set(drinks.flatMap((d) => d.categories))
-  );
+  ).sort((a, b) => {
+    const priority = { "New": 0, "Trending": 1 };
+    const aPriority = priority[a as keyof typeof priority] ?? 2;
+    const bPriority = priority[b as keyof typeof priority] ?? 2;
+    if (aPriority !== bPriority) return aPriority - bPriority;
+    return a.localeCompare(b);
+  });
 
   return (
     <div className="space-y-8">
@@ -57,19 +63,24 @@ export default function DrinkMenu({ drinks }: DrinkMenuProps) {
           </p>
         )}
         <div className="flex flex-wrap gap-2">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setSearchQuery(cat)}
-              className={`px-4 py-2 rounded-lg transition ${
-                searchQuery === cat
-                  ? "bg-primary text-white"
-                  : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
+          {categories.map((cat) => {
+            const isSpecial = cat === "New" || cat === "Trending";
+            return (
+              <button
+                key={cat}
+                onClick={() => setSearchQuery(cat)}
+                className={`px-3 py-1 text-sm rounded-md transition ${
+                  searchQuery === cat
+                    ? "bg-primary text-white"
+                    : isSpecial
+                      ? "bg-amber-100 text-amber-800 hover:bg-amber-200"
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                }`}
+              >
+                {cat}
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -87,7 +98,7 @@ export default function DrinkMenu({ drinks }: DrinkMenuProps) {
                     {drink.categories.map((cat) => (
                       <span
                         key={cat}
-                        className="inline-block px-3 py-1 text-xs font-medium bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 cursor-pointer transition"
+                        className="inline-block px-2 py-0.5 text-xs font-medium bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 cursor-pointer transition"
                         onClick={() => setSearchQuery(cat)}
                       >
                         {cat}
@@ -95,7 +106,7 @@ export default function DrinkMenu({ drinks }: DrinkMenuProps) {
                     ))}
                   </div>
                 </div>
-                {drink.price && (
+                {drink.price && drink.price !== "NULL" && (
                   <span className="text-2xl font-bold text-primary">${drink.price}</span>
                 )}
               </div>

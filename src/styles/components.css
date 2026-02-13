@@ -4,7 +4,7 @@
 }
 
 .section-sm {
-  @apply py-16 xl:py-20;
+  @apply py-2 xl:py-8;
 }
 
 /* container */

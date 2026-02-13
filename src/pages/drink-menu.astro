@@ -4,6 +4,7 @@ import Base from "@/layouts/Base.astro";
 import { getListPage } from "@/lib/contentParser.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import { render } from "astro:content";
+import PageHeader from "@/partials/PageHeader.astro";
 import DrinkMenu from "@/layouts/helpers/DrinkMenu";
 import drinks from "@/data/drinks.json";
 
@@ -22,23 +23,11 @@ if (drinkIndex.data.draft) {
   description={description}
   image={image}
 >
+  <PageHeader title={title} />
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
         <div class="md:col-10 lg:col-8">
-          {
-            image && (
-              <ImageMod
-                class="mx-auto mb-6 rounded"
-                src={image}
-                width={1200}
-                height={600}
-                alt={title}
-                format="webp"
-              />
-            )
-          }
-          <h2 set:html={markdownify(title)} class="h3 mb-6" />
           <div class="content mb-8">
             <Content />
           </div>
