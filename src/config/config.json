@@ -1,15 +1,16 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://brianmonroetp.github.io/astroplate",
-    "base_path": "/astroplate/",
+    "title": "Celina Moose Lodge",
+    "base_url": "https://brianmonroetp.github.io/",
+    "base_path": "",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "logo": "/images/logo-m.png",
     "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_width": "235",
+    "logo_height": "80",
+    "logo_text": "Celina Moose Lodge",
+    "description": "Home of LOOM #1473 and WOTM #1386."
   },
 
   "settings": {
@@ -24,13 +25,13 @@
 
   "announcement": {
     "enable": true,
-    "content": "<span class='text-center block'>♥️ Loving Astroplate? <a class='underline' href='https://github.com/zeon-studio/astroplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>",
+    "content": "<span class='text-center block'>♥️ Loving Astroplate? <a class='underline' href='https://github.com/zeon-studio/astroplate' target='_blank' rel='noopener'>Download</a> the Moose International app to manage your membership!</span>",
     "expire_days": 7
   },
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Designed And Developed by [C6 Productions](https://zeon.studio)"
   },
 
   "navigation_button": {
@@ -51,7 +52,7 @@
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "Brian Monroe",
     "meta_image": "/images/og-image.png",
     "meta_description": "astro and tailwind boilerplate"
   }
